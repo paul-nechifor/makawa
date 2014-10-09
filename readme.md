@@ -4,6 +4,8 @@ This is a Java implementation of the **Macaua** card game.
 
 ![makawa screenshot](screenshot.png)
 
+## About
+
 I did this back in 2009 when I first started using Java so excuse the bad code
 (things like using the Vector class and very long lines).
 
@@ -20,8 +22,24 @@ The code is both written and commented in Romanian.
 
 The [supported commands][cmds] are in the source code.
 
+## Usage
+
+Build it:
+
+    mvn package
+
+Invoke it as:
+
+    <program> Player1Type Player1Name Player2Type Player2Name ...
+
+where the types are `Human` for console controlled and `Simple` for AI.
+
+For example to play against two bots use:
+
+    java -cp target/makawa-*.jar net.nechifor.makawa.Makawa Human P1 Simple P2 Simple P3
+
 ## License
 
 MIT
 
-[cmds]: https://github.com/paul-nechifor/Makawa/blob/master/src/ro/minimul/makawa/JucatorUmanText.java#L78
+[cmds]: src/main/java/net/nechifor/makawa/JucatorUmanText.java#L78
