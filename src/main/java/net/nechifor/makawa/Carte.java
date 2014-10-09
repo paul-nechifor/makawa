@@ -1,4 +1,4 @@
-package ro.minimul.makawa;
+package net.nechifor.makawa;
 
 import java.util.Vector;
 import java.lang.reflect.Array;

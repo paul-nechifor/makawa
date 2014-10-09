@@ -1,4 +1,4 @@
-package ro.minimul.makawa;
+package net.nechifor.makawa;
 
 /*
  * Inceput: 22.08.2009

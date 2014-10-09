@@ -1,4 +1,4 @@
-package ro.minimul.makawa;
+package net.nechifor.makawa;
 
 public class TipJoc
 {

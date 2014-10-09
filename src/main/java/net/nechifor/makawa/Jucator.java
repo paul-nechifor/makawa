@@ -1,4 +1,4 @@
-package ro.minimul.makawa;
+package net.nechifor.makawa;
 
 /**
  * Aceasta este clasa abstractă pe care trebuie s-o moștenească jucătorii de Macaua. Fiecare clasă este
