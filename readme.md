@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/makawa](http://gitlab.com/paul-nechifor/makawa).
+
+Old readme:
+
 # Makawa
 
 This is a Java implementation of the **Macaua** card game.
